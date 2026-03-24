@@ -3,12 +3,12 @@
 Este projeto realiza testes automatizados na API REST do banco-api, validando suas funcionalidades e contribuindo a qualidade de suas operações.
 
 ## Stack utilizada
-Linguagem: JavaScript (Node.js)
-Framework de testes: Mocha
-Biblioteca de requisições HTTP: Supertest
-Biblioteca de asserções: Chai
-Relatórios de testes: Mochawesome
-Gerenciamento de variáveis de ambiente: dotenv
+- **Linguagem:** JavaScript (Node.js)
+- **Framework de testes:** Mocha
+- **Biblioteca de requisições HTTP:** Supertest
+- **Biblioteca de asserções:** Chai
+- **Relatórios de testes:** Mochawesome
+- **Gerenciamento de variáveis de ambiente:** dotenv
 
 
 ## Estrutura de diretórios
@@ -29,7 +29,7 @@ Antes de rodar os testes, crie um arquivo chamado .env na raiz do projeto com o 
 BASE_URL=http://localhost:3000
 Substitua http://localhost:3000 pela URL onde a API banco-api está rodando.
 
-Comandos para execução
+## Comandos para execução
 Instale as dependências:
 
 npm install
@@ -46,9 +46,9 @@ Sugestão: para executar os testes e abrir o relatório HTML automaticamente, ad
 }
 (Em Windows, substitua open por start.)
 
-##Dependências utilizadas e suas documentações
-Mocha - Framework de execução de testes
-Supertest - Biblioteca para chamadas HTTP
-Chai - Biblioteca de asserções
-Mochawesome - Geração de relatórios em HTML
-dotenv - Gerenciamento de variáveis de ambiente
+## Dependências utilizadas e suas documentações
+- Mocha - Framework de execução de testes
+- Supertest - Biblioteca para chamadas HTTP
+- Chai - Biblioteca de asserções
+- Mochawesome - Geração de relatórios em HTML
+- dotenv - Gerenciamento de variáveis de ambiente
